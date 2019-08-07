@@ -2,7 +2,7 @@
 
 from setuptools import setup
 
-setup(name='bpy2.79',
+setup(name='bpy',
       version='0.1',
       description='Pre-built Blender 2.79 as a python3.5 module bpy for linux.',
       author='Uzair Akbar',
