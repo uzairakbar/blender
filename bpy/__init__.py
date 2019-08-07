@@ -1,1 +1,1 @@
-from bpy import *
+from . import bpy
