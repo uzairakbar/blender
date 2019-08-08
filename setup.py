@@ -1,20 +1,21 @@
 #!/usr/bin/env python
-import pathlib
 from setuptools import setup
+from os import path
+from io import open
 
-# The directory containing this file
-HERE = pathlib.Path(__file__).parent
-# The text of the README file
-README = (HERE/"README.md").read_text()
+here = path.abspath(path.dirname(__file__))
+# Get the long description from the README file
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(name='blender',
-      version='1.1',
+      version='1.2',
       description='Pre-built Blender 2.79 as a python3.5 module bpy for linux.',
       author='Uzair Akbar',
       author_email='uzairakbar@outlook.com',
-      url='https://github.com/uzairakbar/blender/archive/v1.1.tar.gz',
+      url='https://github.com/uzairakbar/blender/archive/v1.2.tar.gz',
       packages=['blender'],
-      long_description=README,
+      long_description=long_description,
       long_description_content_type="text/markdown",
       include_package_data=True
       )
