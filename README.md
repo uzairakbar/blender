@@ -7,10 +7,10 @@ Run [THIS](https://github.com/sobotka/blender/blob/v2.79/build_files/build_envir
 ## Installation
 To install via pypi:
 ```bash
-py -m pip install bpy
+python3 -m pip install blender
 ```
 Alternatively:
 ```bash
-git clone https://github.com/uzairakbar/bpy.git
-pip install -e bpy
+git clone https://github.com/uzairakbar/blender.git
+pip install path/to/blender
 ```
