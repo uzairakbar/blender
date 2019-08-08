@@ -10,7 +10,7 @@ chmod +x install_deps.sh
 ```
 
 ## Installation
-To install via pypi:
+To install via [pypi](https://pypi.org/project/blender/#description):
 ```bash
 python3 -m pip install blender
 ```
