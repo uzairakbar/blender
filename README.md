@@ -19,3 +19,8 @@ Alternatively:
 git clone https://github.com/uzairakbar/blender.git
 python3 -m pip install path/to/blender
 ```
+
+## Usage
+```bash
+from blender import bpy
+```
